@@ -1,0 +1,68 @@
+<div class="landing">
+  <div fxLAyout="row" class="roleInfo">
+    <div fxFlex="">
+      <button mat-button (click)="backClicked()">
+          <i class="material-icons">
+              arrow_back
+              </i>back
+      </button>
+    </div>
+    <div fxFlex="" class="centred">
+      <h3>Who am I?</h3>
+    </div>
+    <div fxFlex="">
+    </div>
+  </div>
+  <mat-grid-list cols="2" rowHeight="100px">
+    <mat-grid-tile
+        [colspan]="2"
+        [rowspan]="2"
+        id="colombia" class="verse">
+        <div fxLayout="column">
+                <div fxFlex="">
+                     <i class="material-icons"> child_care</i>
+                    <h4>Colombia</h4>
+                    <p>Electronics and Telecommunications Engineering</p>
+                    <p>W@pcolombia Research Group - Mobile Web - User Centred Design - Challenges</p>
+                    <p>Language: Spanish</p>
+                </div>
+               
+            </div> 
+
+    </mat-grid-tile>
+    <mat-grid-tile
+        [colspan]="2"
+        [rowspan]="2"
+        id="england" class="verse"
+        >
+        <div fxLayout="column">
+                <div fxFlex="">
+                    <i class="material-icons">book</i>
+                    <h4>Great Britain</h4>
+                    <p>South Thames College - University of Dundee: MSc. User Experience Engineering - Web Design worshops - NCR</p>
+                    <p>Language: English</p>   
+                </div>
+                     
+              </div>
+              
+    </mat-grid-tile>
+    <mat-grid-tile
+        [colspan]="2"
+        [rowspan]="2"
+        id="germany" class="verse"
+        >
+        <div fxLayout="column">
+            <div fxFlex="">
+                <i class="material-icons">
+                    developer_mode
+                    </i>                <h4>Germany</h4>
+                <p>Inlingua, VHS, AGI - ITSCare </p>
+                <p>Language: German and English</p>
+            </div>
+          </div>
+              
+    </mat-grid-tile>
+  
+</mat-grid-list>
+
+</div>

@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+body {
+	margin: 0;
+	padding: 0;
+	color: #1d1d1d;
+	font-size: 0.8rem;
+	font-family: 'Lato', sans-serif;
+}
+a:visited {
+    color: #1d1d1d;
+}
+.mat-tab-label-content{
+	color: #1d1d1d;
+}
+
+.mat-tab-group.mat-primary .mat-tab-label:not(.mat-tab-disabled):focus {
+	background-color: #c2185b;
+	color: white !important;
+}
+.mat-expansion-panel {
+	background: #fff !important;
+	color: #1d1d1d !important;
+}
+.mat-expansion-panel-header-title, .mat-expansion-panel-header-description{
+	color: #1d1d1d !important;
+}
+.centred{
+	text-align: center;
+}
+.niceshadow img{
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.mat-expansion-indicator::after {
+	color: #c4105a !important;
+}
+.roleInfo{
+	padding: 20px;
+}
+.centred{
+	text-align: center;
+}

@@ -1,0 +1,38 @@
+.main{
+  z-index: 1000;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  overflow-x: hidden;
+  background: linear-gradient(321deg, #d5d5d5, #fff);
+}
+.mat-grid-list, .mat-expansion-panel{
+  margin: 0 20px;
+}
+#nbl{
+  background: linear-gradient(321deg, #339e96,#682cbc);
+  color: #ffffff;
+  text-align:center;
+}
+#webkurs{
+  background:#652bb6;
+  color:rgb(255, 255, 255);
+  text-align:center;
+}
+#brp{
+ background: #3f819b;
+ color: rgb(255, 255, 255);
+ text-align:center;
+
+}
+#apsapp{
+  background:#ffffff;
+ color: #1d1d1d;
+ text-align:center;
+}
+#beso{
+  background:#2bac8c;
+  color:rgb(255, 255, 255);
+  text-align:center;
+}

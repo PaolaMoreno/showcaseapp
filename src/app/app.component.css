@@ -1,0 +1,124 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.left {
+    left: 0;
+    background-image: linear-gradient(to right, #7d83d6, #37b969);
+    background-size: 400% 400%;
+
+-webkit-animation: about 0s ease infinite;
+-moz-animation: about 0s ease infinite;
+animation: about 0s ease infinite;
+}
+@-webkit-keyframes about {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+@-moz-keyframes about {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+@keyframes about {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+
+.right {
+    right: 0;
+    background: linear-gradient(to left, #7d83d6, #fff);
+    background-size: 400% 400%;
+
+    -webkit-animation: about 0s ease infinite;
+    -moz-animation: about 0s ease infinite;
+    animation: about 0s ease infinite;
+}
+@-webkit-keyframes about {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+@-moz-keyframes about {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+@keyframes about {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 250px;
+    border-radius: 50%;
+}
+.split1 {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding-top: 20px;
+}
+.split2 {
+    width: 40% !important;
+}
+.split3 {
+    width: 10% !important;
+}
+.left {
+    left: 0;
+    background-color: #64dfff;
+}
+
+.right {
+    right: 0;
+    background-color: #fff5f0;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.down{
+    top: 90%;
+    color: black;
+}
+.left1{
+    left: 40%;
+
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+.name{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    /*transform:rotate(-17deg);*/
+    color: black;
+    font-size: large;
+    top:40%;
+    z-index: 10000;
+}

@@ -1,0 +1,371 @@
+<div class="main">
+<div class="contenedor">
+  <mat-tab-group>
+    <mat-tab label="ITSCare">
+        <div fxLAyout="row" class="roleInfo">
+            <div fxFlex="">
+              <button mat-button (click)="backClicked()">
+                  <i class="material-icons">
+                      arrow_back
+                      </i>back
+              </button>
+            </div>
+            <div fxFlex="" class="centred">
+              <h3>UI/UX Developer</h3>
+            </div>
+            <div fxFlex="">
+            </div>
+          </div>
+      <mat-grid-list cols="4" rowHeight="100px">
+        <mat-grid-tile
+            [colspan]="3"
+            [rowspan]="2"
+            id="nbl" class="verse">
+            <div fxLayout="column">
+                    <div fxFlex="">
+                         <i class="material-icons"> tablet_mac </i>
+                        <h4>iPad and web app to support businesses with medical institutions</h4>
+                        <p>Requirement analysis, Layout edition, documents rendering and manipulation</p>
+                        <p>Technology: Angular 6, HTML5, CSS3, Angular Material</p>
+                        <p>Concepts: Material Design, Gestalt Principles, Colour contrast check</p>
+                    </div>
+                   
+                </div> 
+
+        </mat-grid-tile>
+        <mat-grid-tile
+            [colspan]="1"
+            [rowspan]="4"
+            id="webkurs" class="verse"
+            >
+            <div fxLayout="column">
+                    <div fxFlex="">
+                        <i class="material-icons"> money</i>
+                        <h4>Budget management of courses provided <br> to policy holders by third parties</h4>
+                        <p>Tasks: prototyping, requirements analysis, <br> information design, interaction Design</p>
+                        <p>Tool: Proto.io</p>   
+                    </div>
+                         
+                  </div>
+                  
+        </mat-grid-tile>
+            <mat-grid-tile
+            [colspan]="1"
+            [rowspan]="2"
+            id="brp" class="verse"
+            >
+            <div fxLayout="column">
+                <div fxFlex="">
+                    <i class="material-icons">work</i>
+                    <h4>Internal resource management tool</h4>
+                    <p>Tasks: prototyping, Employees data rendering and manipulation, projects assignment and scheduling</p>
+                    <p>Technology: Angular4, HTML5, CSS3, jQuery. Tools: Proto.io</p>
+                    <p>Methods: Cognitive walkthroughs</p>
+                </div>
+              </div>
+                  
+        </mat-grid-tile>
+        <mat-grid-tile
+            [colspan]="2"
+            [rowspan]="2"
+            id="apsapp" class="verse">
+
+            <div fxLayout="column">
+                    <div fxFlex="">
+                        <i class="material-icons">fitness_center</i>
+                        <h4>Web course enrollment</h4>
+                        <p>Tasks: information design, interaction design, courses rendering and display, statistics display, availability management</p>
+                        <p>Technology: Angular 4, HTML5, CSS3, Bootstrap</p>
+                        <p>Methods: remote user testing</p>
+                    </div>
+            </div>
+            
+        </mat-grid-tile>
+        <mat-grid-tile
+            [colspan]="4"
+            [rowspan]="2"
+            id="beso" class="verse">
+            <div fxLayout="column">
+                <div fxFlex="">
+                    <i class="material-icons">healing</i>
+                    <h4>Application to evaluate policy holders eligibility to get financial aid</h4>
+                    <p>Tasks: requirements analysis, alternative addressee rendering and manipulation</p>
+                    <p>Technology: Angular6, HTML5, CSS3, Angular Material</p>
+                </div>
+                <div fxFlex="">   
+                </div>
+              </div> 
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-tab>
+    <mat-tab label="AHC">
+        <div fxLAyout="row" class="roleInfo">
+            <div fxFlex="">
+              <button mat-button (click)="backClicked()">
+                  <i class="material-icons">
+                      arrow_back
+                      </i>back
+              </button>
+            </div>
+            <div fxFlex="" class="centred">
+              <h3>Technology Officer</h3>
+            </div>
+            <div fxFlex="">
+            </div>
+          </div>
+         
+          <!---Expansion panel-->
+          <mat-accordion>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Logo & Business Cards
+                </mat-panel-title>
+                <mat-panel-description>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              
+              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
+                  <div fxFlex=""> 
+                        <img height="100%" width="100%" src="assets/astonlogo.png" />
+                  </div>
+                  <div fxFlex="">
+                        <img height="100%" width="100%" src="assets/bcahcfront.jpg" /> 
+                  </div>
+                  <div fxFlex="" >
+                        <img height="100%" width="100%" src="assets/bcahcback.jpg" />
+                  </div>
+              </div>
+
+            </mat-expansion-panel>
+            <mat-expansion-panel >
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                 Banners
+                </mat-panel-title>
+                <mat-panel-description>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow" >
+                    <div fxFlex="" class="centred">
+                          <img height="60%" width="50%" src="assets/ahcposter.png" /> 
+                    </div>
+                    <div fxFlex="" class="centred">
+                          <img height="70%" width="100%" src="assets/ahcflyer.png" />
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                  <mat-panel-title>
+                    Website
+                  </mat-panel-title>
+                  <mat-panel-description>
+                  </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div class="centred">
+                    <embed id="123" height="724px" width="1124px" src="https://paolamoreno.de/ahc" /> 
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>          
+              
+    </mat-tab>
+    <mat-tab label="NCR">
+        <div fxLAyout="row" class="roleInfo">
+            <div fxFlex="">
+              <button mat-button (click)="backClicked()">
+                  <i class="material-icons">
+                      arrow_back
+                      </i>back
+              </button>
+            </div>
+            <div fxFlex="" class="centred">
+              <h3>UX Designer</h3>
+            </div>
+            <div fxFlex="">
+            </div>
+          </div>
+
+
+          <mat-accordion>
+                <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      User Research
+                    </mat-panel-title>
+                    <mat-panel-description>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  
+                  <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
+                        <div fxFlex="" class="centred">
+                                <img height="100%" width="100%" src="assets/designsession.jpg" /> 
+                          </div>
+                          <div fxFlex="" class="centred">
+                                <img height="100%" width="100%" src="assets/designsession1.jpg" />
+                          </div>
+                  
+                  </div>
+    
+                </mat-expansion-panel>
+                <mat-expansion-panel >
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                     Design
+                    </mat-panel-title>
+                    <mat-panel-description>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow" >
+                            <div fxFlex="" class="centred"> 
+                                <img height="60%" width="50%" src="assets/ncr3.png" />
+                            </div>
+                            <div fxFlex="">
+                                    <div fxLayout="column">
+                                            <div fxFlex=""> 
+                                                    <img height="60%" width="70%" src="assets/ncr1.png" />
+                                            </div>          
+                                            <div fxFlex=""> 
+                                                <img height="60%" width="70%" src="assets/ncr4.png" />
+                                            </div> 
+                                    </div>
+                            </div>
+                            
+                            
+                    </div>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel >
+                        <mat-expansion-panel-header>
+                          <mat-panel-title>
+                            Data Analysis                          
+                        </mat-panel-title>
+                          <mat-panel-description>
+                          </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <div fxLayout="row" class="niceshadow">
+                                <div fxFlex="" class="centred">
+                                        <img height="100%" width="80%" src="assets/heatmapa.png" /> 
+                                  </div>
+                                  <div fxFlex="" class="centred">
+                                        <img height="100%" width="80%" src="assets/heatmapb.png" />
+                                  </div>
+                                  <div fxFlex="" class="centred">
+                                        <img height="100%" width="80%" src="assets/abtesting.png" />
+                                  </div>
+                        </div>
+                    </mat-expansion-panel>
+    
+                <mat-expansion-panel >
+                    <mat-expansion-panel-header>
+                      <mat-panel-title>
+                        Web Prototype
+                      </mat-panel-title>
+                      <mat-panel-description>
+                      </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <div class="centred">
+                            <embed id="123" height="690px" width="1200px" src="https://paolamoreno.de/ncr" /> 
+                  </div>
+                </mat-expansion-panel>
+            </mat-accordion>          
+             
+    </mat-tab>
+    <mat-tab label="W@pColombia">
+        <mat-accordion>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  User Research
+                </mat-panel-title>
+                <mat-panel-description>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              
+              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
+                      <div fxFlex="" class="centred">
+                            <img height="100%" width="50%" src="assets/Picture1.png" /> 
+                      </div>
+                      <div fxFlex="" class="centred">
+                            <img height="60%" width="35%" src="assets/Picture3.png" />
+                      </div>
+              </div>
+              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
+                  <div fxFlex="" class="centred">
+                      <img height="100%" width="50%" src="assets/Picture4.png" /> 
+                </div>
+                <div fxFlex="" class="centred">
+                    <img height="100%" width="50%" src="assets/Picture5.png" /> 
+              </div>
+
+              </div>
+
+            </mat-expansion-panel>
+            <mat-expansion-panel >
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                 Design
+                </mat-panel-title>
+                <mat-panel-description>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow" >
+                        <div fxFlex="" class="centred"> 
+                            <img height="60%" width="50%" src="assets/ncr3.png" />
+                        </div>
+                        <div fxFlex="">
+                                <div fxLayout="column">
+                                        <div fxFlex=""> 
+                                                <img height="60%" width="70%" src="assets/ncr1.png" />
+                                        </div>          
+                                        <div fxFlex=""> 
+                                            <img height="60%" width="70%" src="assets/ncr4.png" />
+                                        </div> 
+                                </div>
+                        </div>
+                        
+                        
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel >
+                    <mat-expansion-panel-header>
+                      <mat-panel-title>
+                        Data Analysis                          
+                    </mat-panel-title>
+                      <mat-panel-description>
+                      </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <div fxLayout="row" class="niceshadow">
+                            <div fxFlex="" class="centred">
+                                    <img height="100%" width="80%" src="assets/heatmapa.png" /> 
+                              </div>
+                              <div fxFlex="" class="centred">
+                                    <img height="100%" width="80%" src="assets/heatmapb.png" />
+                              </div>
+                              <div fxFlex="" class="centred">
+                                    <img height="100%" width="80%" src="assets/abtesting.png" />
+                              </div>
+                    </div>
+                </mat-expansion-panel>
+
+            <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                  <mat-panel-title>
+                    Web Prototype
+                  </mat-panel-title>
+                  <mat-panel-description>
+                  </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div class="centred">
+                        <embed id="123" height="690px" width="1200px" src="https://paolamoreno.de/ncr" /> 
+              </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </mat-tab>
+
+  </mat-tab-group>
+
+</div>
+</div>

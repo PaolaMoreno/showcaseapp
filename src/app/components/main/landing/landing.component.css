@@ -1,0 +1,25 @@
+.landing{
+  z-index: 1000;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  overflow-x: hidden;
+  background-color: white;
+}
+#colombia{
+  background:#652bb6;
+  color:rgb(255, 255, 255);
+  text-align:center;
+}
+#england{
+ background: #3f819b;
+ color: rgb(255, 255, 255);
+ text-align:center;
+
+}
+#germany{
+  background:#ffffff;
+ color: #1d1d1d;
+ text-align:center;
+}
