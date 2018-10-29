@@ -10,11 +10,6 @@
 .mat-grid-list, .mat-expansion-panel{
   margin: 0 20px;
 }
-#nbl{
-  background: linear-gradient(321deg, #339e96,#682cbc);
-  color: #ffffff;
-  text-align:center;
-}
 #webkurs{
   background:#652bb6;
   color:rgb(255, 255, 255);
@@ -35,4 +30,34 @@
   background:#2bac8c;
   color:rgb(255, 255, 255);
   text-align:center;
+}
+.nbl{
+  /*background: linear-gradient(321deg, #339e96,#682cbc);*/
+  color: #1d1d1d;
+  margin: 0 50px;
+}
+@media only screen and (min-width: 1280px) {
+  img {
+      height: 90%;
+      width: 90%;
+  }
+  .hidemeinBig{
+    display: none;
+  }
+  .seemeinBig{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  img {
+      height: 90%;
+      width: 90%;
+  }
+  .hidemeinBig{
+    display: block;
+  }
+  .seemeinBig{
+    display: none;
+  }
 }

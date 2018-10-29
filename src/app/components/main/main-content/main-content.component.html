@@ -2,7 +2,7 @@
 <div class="contenedor">
   <mat-tab-group>
     <mat-tab label="ITSCare">
-        <div fxLAyout="row" class="roleInfo">
+        <div fxLayout="row" class="roleInfo">
             <div fxFlex="">
               <button mat-button (click)="backClicked()">
                   <i class="material-icons">
@@ -16,87 +16,117 @@
             <div fxFlex="">
             </div>
           </div>
-      <mat-grid-list cols="4" rowHeight="100px">
-        <mat-grid-tile
-            [colspan]="3"
-            [rowspan]="2"
-            id="nbl" class="verse">
-            <div fxLayout="column">
-                    <div fxFlex="">
-                         <i class="material-icons"> tablet_mac </i>
-                        <h4>iPad and web app to support businesses with medical institutions</h4>
-                        <p>Requirement analysis, Layout edition, documents rendering and manipulation</p>
-                        <p>Technology: Angular 6, HTML5, CSS3, Angular Material</p>
-                        <p>Concepts: Material Design, Gestalt Principles, Colour contrast check</p>
-                    </div>
-                   
-                </div> 
-
-        </mat-grid-tile>
-        <mat-grid-tile
-            [colspan]="1"
-            [rowspan]="4"
-            id="webkurs" class="verse"
-            >
-            <div fxLayout="column">
-                    <div fxFlex="">
-                        <i class="material-icons"> money</i>
-                        <h4>Budget management of courses provided <br> to policy holders by third parties</h4>
-                        <p>Tasks: prototyping, requirements analysis, <br> information design, interaction Design</p>
-                        <p>Tool: Proto.io</p>   
-                    </div>
-                         
-                  </div>
-                  
-        </mat-grid-tile>
-            <mat-grid-tile
-            [colspan]="1"
-            [rowspan]="2"
-            id="brp" class="verse"
-            >
-            <div fxLayout="column">
-                <div fxFlex="">
-                    <i class="material-icons">work</i>
-                    <h4>Internal resource management tool</h4>
-                    <p>Tasks: prototyping, Employees data rendering and manipulation, projects assignment and scheduling</p>
-                    <p>Technology: Angular4, HTML5, CSS3, jQuery. Tools: Proto.io</p>
-                    <p>Methods: Cognitive walkthroughs</p>
-                </div>
-              </div>
-                  
-        </mat-grid-tile>
-        <mat-grid-tile
-            [colspan]="2"
-            [rowspan]="2"
-            id="apsapp" class="verse">
-
-            <div fxLayout="column">
-                    <div fxFlex="">
-                        <i class="material-icons">fitness_center</i>
-                        <h4>Web course enrollment</h4>
-                        <p>Tasks: information design, interaction design, courses rendering and display, statistics display, availability management</p>
-                        <p>Technology: Angular 4, HTML5, CSS3, Bootstrap</p>
-                        <p>Methods: remote user testing</p>
-                    </div>
+          <div class="nbl" fxLayout="column" >
+            <div fxFlex="" class="centred"> 
+              <h4>DPort web app</h4>
+              <p> A digital portfolio with mailing and shcheduling capabilites enables business consultants to seal deals with 
+                health institutions. One of my task was designing and implementing the Layout. Here I will describe some of the
+                concepts used to create the design.
+              </p>
             </div>
-            
-        </mat-grid-tile>
-        <mat-grid-tile
-            [colspan]="4"
-            [rowspan]="2"
-            id="beso" class="verse">
-            <div fxLayout="column">
-                <div fxFlex="">
-                    <i class="material-icons">healing</i>
-                    <h4>Application to evaluate policy holders eligibility to get financial aid</h4>
-                    <p>Tasks: requirements analysis, alternative addressee rendering and manipulation</p>
-                    <p>Technology: Angular6, HTML5, CSS3, Angular Material</p>
+            <div fxFlex="">
+                <div fxLayout="row" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0">
+                    <div fxFlex="60%">
+                        <img height="100%" width="100%" src="assets/pc1.png" />
+                    </div>
+                    <div fxFlex="35%">
+                      <div><br>The picture portraits the authoring view, a web app feature that enables the user with administrator credentials
+                        to edit the portfolio layout.
+                        That is, the libraries background color, name, position, sublibraries, documents, texts and Internet links.
+                          <br><br>
+                        The <b>preview</b> container shows instant changes that can be publish
+                        upon user request. <br><br>
+                        This design is inspired mainly by Gestalt Principles and Heuristics, two sets of principles that emerge from the study on
+                        Human Factors and its application to the Human Computer Interaction. 
+                        On the technical axes, it is developed with <b>Angular 6, HTML5, CSS3</b> and the <b>Angular Material library.</b><br><br>
+                        For reasons of confidentiality, a minified and abstract Mock-up version of the application is displayed here. Libraries are meant to signify
+                        grouping categories.<br><br>
+                        <b>Gestalt principles</b><br>
+                        Researched by German psychologists...Did you see that? Yes, Germans! ;) These principles
+                        attempt to describe how people perceive visual elements when certain conditions apply.<br>
+                        <ul>
+                            <li><b>Proximity</b><br>
+                              The image shows in two ocassions an element named "Library a", but to recognise that they have different 
+                              functionalities attached, they are placed further apart.
+                            </li>
+                        </ul>
+                        <ul class="seemeinBig">
+                            <li><b>Common Region</b><br>
+                              However, placing them further apart would not necessarily fulfill the purpose of conveying different functionality.
+                              To do that, the first library is placed in the container named "Preview" and the second in the lower container that hosts
+                              also an "Add" call to action button. This button is placed there so that a Library can be added to the lower container 
+                              but not to the first one.
+                              The same happens with the container where "Documents texts and links" are displayed (soft purple container).
+                              Rather than being pure libraries (grouping categories if you like) they host content, 
+                              like pdfs or excel documents and that is the reason why they are enclosed in a different container, whithin its parent container, the library.
+                          </ul>
+                        
+                      </div>    
+                  </div>
                 </div>
-                <div fxFlex="">   
+            </div>
+            <div fxFlex="100%">
+               
+                <ul class="hidemeinBig">
+                    <li><b>Common Region</b><br>
+                      However, placing them further apart would not necessarily fulfill the purpose of conveying different functionality.
+                      To do that, the first library is placed in the container named "Preview" and the second in the lower container that hosts
+                      also an "Add" call to action button. This button is placed there so that a Library can be added to the lower container 
+                      but not to the first one.
+                      The same happens with the container where "Documents texts and links" are displayed (soft purple container).
+                      Rather than being pure libraries (grouping categories if you like) they host content, 
+                      like pdfs or excel documents and that is the reason why they are enclosed in a different container, whithin its parent container, the library.
+                </ul>
+              
+                  <b>Heuristics</b><br>
+                  <ul>
+                      <li><b>Visibility of system status</b><br>
+                        The application is in charge of informing appropriately changes and states of the system.
+                        In the lower container there are a set of tooltips that would be displayed upon user hovering, they tell the user
+                        why to click on them and what to expect after that.
+                        Another clear example is shown in the navigation bar. To know where in the navigation a user currently is, 
+                        the active tab must be highlighted. <br>
+                        A similar pattern is shown with the breadcrumbs that enablee users to go back from one sublibrary to its library parent.
+                      </li>
+                      <li><b>Recognition rather than recall</b><br>
+                        This principle advocates to help users minimize their memory load by making objects, actions, and options visible.
+                        To this purpose, standard icons with a label (when possible) are displayed as opposed to creating 
+                        "unique" icons whithout labels or tooltips that leave our users wondering how to achieve a goal with our user interface
+                        or even worse deleting files that were not allowed to be deleted, for example.
+                      </li>
+                    </ul>
+
+            </div>
+            <div fxFlex="100%">
+              <div fxLayout="row">
+                <div></div>
+                  <div fxFlex="" class="centred"> 
+                      <h4>DPort iPad app</h4>
                 </div>
-              </div> 
-        </mat-grid-tile>
-      </mat-grid-list>
+                <div></div>
+              </div>
+                <div fxLayout="row" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0">
+                  <div fxFlex="">
+                    <p>In the iPad version of the application, no authoring view is enabled to favoured device capabilities.
+                      A minified version of the main screen is shown.<br><br>
+                      <b>Responsiveness</b><br>
+                      To support responsiveness, the grid that in bigger viewports outlines three or more 
+                      columns, is now displayed in one single column containing all libraries. <br><br>
+                      <b>Accessibility</b><br>
+                      according to the W3C Accessibility guidelines, level AA requires a contrast ratio of at 
+                      least 4.5:1 for normal text and 3:1 for large text. Level AAA requires a contrast ratio 
+                      of at least 7:1 for normal text and 4.5:1 for large text. <br>
+                      Because of this, the font color of some libraries is dark and for the others 
+                      it is bright. 
+                      <br>The font sizes are fixed in rem units to create a perfectly scalable layout.
+                    </p>
+                  </div>
+                  <div fxFlex="">
+                      <img style="border-radius: 25px;" height="90%" width="80%" src="assets/ipad.png" />
+                  </div>
+                </div>
+            </div>
+          </div>
     </mat-tab>
     <mat-tab label="AHC">
         <div fxLAyout="row" class="roleInfo">
@@ -113,7 +143,15 @@
             <div fxFlex="">
             </div>
           </div>
-         
+          <div fxLAyout="row" class="roleInfo">
+            <div fxFlex="">
+                <p>A studies abroad company with around 10 years of experience decided to enter the digital 
+                    world. I was in charge of creating their online presence, a new brand and boost
+                    sales with the help of digital channels.
+                    As you will see in the next expandables, the tasks where quite varied but we achieved the goal!
+                  </p>
+            </div>
+          </div>
           <!---Expansion panel-->
           <mat-accordion>
             <mat-expansion-panel>
