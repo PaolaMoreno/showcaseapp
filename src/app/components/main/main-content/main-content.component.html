@@ -129,6 +129,7 @@
           </div>
     </mat-tab>
     <mat-tab label="AHC">
+      <div class="nbl">
         <div fxLAyout="row" class="roleInfo">
             <div fxFlex="">
               <button mat-button (click)="backClicked()">
@@ -143,7 +144,7 @@
             <div fxFlex="">
             </div>
           </div>
-          <div fxLAyout="row" class="roleInfo">
+          <div fxLAyout="row">
             <div fxFlex="">
                 <p>A studies abroad company with around 10 years of experience decided to enter the digital 
                     world. I was in charge of creating their online presence, a new brand and boost
@@ -152,61 +153,50 @@
                   </p>
             </div>
           </div>
-          <!---Expansion panel-->
-          <mat-accordion>
-            <mat-expansion-panel>
-              <mat-expansion-panel-header>
-                <mat-panel-title>
-                  Logo & Business Cards
-                </mat-panel-title>
-                <mat-panel-description>
-                </mat-panel-description>
-              </mat-expansion-panel-header>
-              
-              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
-                  <div fxFlex=""> 
-                        <img height="100%" width="100%" src="assets/astonlogo.png" />
-                  </div>
-                  <div fxFlex="">
+          <!--Expansion panel-->
+              <div><p><b>Logo & Business Cards</b><br>
+                Two words had to be reflected in this design: simplicity and elegance. <br>
+                The color palette as well as the ribbon were chosen as to express warmth, combined with the favourite color of the company's owner.
+                This color does not match necessarily the warmth palette, but it definitely gave the logo and business cards an interesting edge!
+                The simplicity permeates the layout and information design, and the elegance sprang with the ribbon, the font and the glossy paper
+                the cards were printed in.
+              </p></div>
+              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0" class="niceshadow">
+
+                  <div fxFlex="45%">
                         <img height="100%" width="100%" src="assets/bcahcfront.jpg" /> 
                   </div>
-                  <div fxFlex="" >
+                  <div fxFlex="45%" >
                         <img height="100%" width="100%" src="assets/bcahcback.jpg" />
                   </div>
               </div>
 
-            </mat-expansion-panel>
-            <mat-expansion-panel >
-              <mat-expansion-panel-header>
-                <mat-panel-title>
-                 Banners
-                </mat-panel-title>
-                <mat-panel-description>
-                </mat-panel-description>
-              </mat-expansion-panel-header>
-              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow" >
+              <div><b>Banners</b><br>
+              <p>Once the market segment was set up - or re thought - banners, flyers and posters were designed to attract young people
+              with "grafitti" like pictures of London, mixed up with vivid colors. I do not remember how many young ladies
+              were sent to get rides on red London buses but I am sure the number was not small ;)</p>
+              </div>
+
+              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0" class="niceshadow" >
                     <div fxFlex="" class="centred">
                           <img height="60%" width="50%" src="assets/ahcposter.png" /> 
                     </div>
                     <div fxFlex="" class="centred">
                           <img height="70%" width="100%" src="assets/ahcflyer.png" />
                     </div>
+                    
                 </div>
-            </mat-expansion-panel>
+                <div><p><br><b>Website</b></p>
+                  <p>Finally a website was also implemented. The technolgies used were JavaScript, HTML5, CSS3 and the framework
+                    Bootstrap. Meanwhile a different version is being used but this was the one I built for them.
+                    If you want to see it in a new window with its own responsive features, <a href="https://paolamoreno.de/ahc" target="_blank">click here</a> please.
+                  </p>
+                </div>
 
-            <mat-expansion-panel >
-                <mat-expansion-panel-header>
-                  <mat-panel-title>
-                    Website
-                  </mat-panel-title>
-                  <mat-panel-description>
-                  </mat-panel-description>
-                </mat-expansion-panel-header>
                 <div class="centred">
                     <embed id="123" height="724px" width="1124px" src="https://paolamoreno.de/ahc" /> 
                 </div>
-            </mat-expansion-panel>
-        </mat-accordion>          
+        </div>    
               
     </mat-tab>
     <mat-tab label="NCR">
@@ -224,18 +214,21 @@
             <div fxFlex="">
             </div>
           </div>
+            <p>Following the introduction of new touch based ATMs (cash machines) at NCR in Edinburgh, 
+              services built with web technologies afterwards deployed to the device with ATM network.
+              This could allow the introduction of new services and more interactions that possible, given that
+              the device was not restricted anymore to the traditional "8 buttons to the side" version.
+              This brought four interesting research questions:
+              1) will the people adapt to the new services and interactions?
+              2) will the nw technology make transactions faster?
+              3)how will different age groups would react to this novelty?
+              4)how could discoverability be achieved? (re phrase)
+              Those 4 questions were the focus of a research study that culminated with a web prototype. 
+             </p>
+            
 
+                      
 
-          <mat-accordion>
-                <mat-expansion-panel>
-                  <mat-expansion-panel-header>
-                    <mat-panel-title>
-                      User Research
-                    </mat-panel-title>
-                    <mat-panel-description>
-                    </mat-panel-description>
-                  </mat-expansion-panel-header>
-                  
                   <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
                         <div fxFlex="" class="centred">
                                 <img height="100%" width="100%" src="assets/designsession.jpg" /> 
@@ -246,15 +239,9 @@
                   
                   </div>
     
-                </mat-expansion-panel>
-                <mat-expansion-panel >
-                  <mat-expansion-panel-header>
-                    <mat-panel-title>
+               
                      Design
-                    </mat-panel-title>
-                    <mat-panel-description>
-                    </mat-panel-description>
-                  </mat-expansion-panel-header>
+                   
                   <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow" >
                             <div fxFlex="" class="centred"> 
                                 <img height="60%" width="50%" src="assets/ncr3.png" />
@@ -272,16 +259,9 @@
                             
                             
                     </div>
-                </mat-expansion-panel>
-
-                <mat-expansion-panel >
-                        <mat-expansion-panel-header>
-                          <mat-panel-title>
+                
                             Data Analysis                          
-                        </mat-panel-title>
-                          <mat-panel-description>
-                          </mat-panel-description>
-                        </mat-expansion-panel-header>
+                      
                         <div fxLayout="row" class="niceshadow">
                                 <div fxFlex="" class="centred">
                                         <img height="100%" width="80%" src="assets/heatmapa.png" /> 
@@ -293,21 +273,13 @@
                                         <img height="100%" width="80%" src="assets/abtesting.png" />
                                   </div>
                         </div>
-                    </mat-expansion-panel>
-    
-                <mat-expansion-panel >
-                    <mat-expansion-panel-header>
-                      <mat-panel-title>
+                    
                         Web Prototype
-                      </mat-panel-title>
-                      <mat-panel-description>
-                      </mat-panel-description>
-                    </mat-expansion-panel-header>
+                     
                     <div class="centred">
                             <embed id="123" height="690px" width="1200px" src="https://paolamoreno.de/ncr" /> 
                   </div>
-                </mat-expansion-panel>
-            </mat-accordion>          
+                   
              
     </mat-tab>
     <mat-tab label="W@pColombia">
