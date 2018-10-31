@@ -10,6 +10,9 @@ body {
 a:visited {
     color: #1d1d1d;
 }
+a {
+	text-decoration: none;
+}
 .mat-tab-label-content{
 	color: #1d1d1d;
 }
@@ -35,7 +38,7 @@ a:visited {
 	color: #c4105a !important;
 }
 .roleInfo{
-	padding: 20px;
+	padding: 20px 20px 20px 0;
 }
 .centred{
 	text-align: center;

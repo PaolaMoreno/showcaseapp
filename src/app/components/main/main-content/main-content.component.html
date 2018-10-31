@@ -1,385 +1,479 @@
 <div class="main">
-<div class="contenedor">
-  <mat-tab-group>
-    <mat-tab label="ITSCare">
-        <div fxLayout="row" class="roleInfo">
-            <div fxFlex="">
-              <button mat-button (click)="backClicked()">
-                  <i class="material-icons">
-                      arrow_back
-                      </i>back
-              </button>
-            </div>
-            <div fxFlex="" class="centred">
-              <h3>UI/UX Developer</h3>
-            </div>
-            <div fxFlex="">
-            </div>
-          </div>
-          <div class="nbl" fxLayout="column" >
-            <div fxFlex="" class="centred"> 
-              <h4>DPort web app</h4>
-              <p> A digital portfolio with mailing and shcheduling capabilites enables business consultants to seal deals with 
-                health institutions. One of my task was designing and implementing the Layout. Here I will describe some of the
-                concepts used to create the design.
-              </p>
-            </div>
-            <div fxFlex="">
-                <div fxLayout="row" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0">
-                    <div fxFlex="60%">
-                        <img height="100%" width="100%" src="assets/pc1.png" />
-                    </div>
-                    <div fxFlex="35%">
-                      <div><br>The picture portraits the authoring view, a web app feature that enables the user with administrator credentials
-                        to edit the portfolio layout.
-                        That is, the libraries background color, name, position, sublibraries, documents, texts and Internet links.
-                          <br><br>
-                        The <b>preview</b> container shows instant changes that can be publish
-                        upon user request. <br><br>
-                        This design is inspired mainly by Gestalt Principles and Heuristics, two sets of principles that emerge from the study on
-                        Human Factors and its application to the Human Computer Interaction. 
-                        On the technical axes, it is developed with <b>Angular 6, HTML5, CSS3</b> and the <b>Angular Material library.</b><br><br>
-                        For reasons of confidentiality, a minified and abstract Mock-up version of the application is displayed here. Libraries are meant to signify
-                        grouping categories.<br><br>
-                        <b>Gestalt principles</b><br>
-                        Researched by German psychologists...Did you see that? Yes, Germans! ;) These principles
-                        attempt to describe how people perceive visual elements when certain conditions apply.<br>
-                        <ul>
-                            <li><b>Proximity</b><br>
-                              The image shows in two ocassions an element named "Library a", but to recognise that they have different 
-                              functionalities attached, they are placed further apart.
-                            </li>
-                        </ul>
-                        <ul class="seemeinBig">
-                            <li><b>Common Region</b><br>
-                              However, placing them further apart would not necessarily fulfill the purpose of conveying different functionality.
-                              To do that, the first library is placed in the container named "Preview" and the second in the lower container that hosts
-                              also an "Add" call to action button. This button is placed there so that a Library can be added to the lower container 
-                              but not to the first one.
-                              The same happens with the container where "Documents texts and links" are displayed (soft purple container).
-                              Rather than being pure libraries (grouping categories if you like) they host content, 
-                              like pdfs or excel documents and that is the reason why they are enclosed in a different container, whithin its parent container, the library.
-                          </ul>
-                        
-                      </div>    
-                  </div>
+    <div class="contenedor">
+      <mat-tab-group>
+        <mat-tab label="ITSCare">
+          <div class="nbl">
+          <div fxLayout="row" class="roleInfo">
+                <div fxFlex="">
+                  <button mat-button (click)="backClicked()">
+                      <i class="material-icons">
+                          arrow_back
+                          </i>back
+                  </button>
                 </div>
-            </div>
-            <div fxFlex="100%">
-               
-                <ul class="hidemeinBig">
-                    <li><b>Common Region</b><br>
-                      However, placing them further apart would not necessarily fulfill the purpose of conveying different functionality.
-                      To do that, the first library is placed in the container named "Preview" and the second in the lower container that hosts
-                      also an "Add" call to action button. This button is placed there so that a Library can be added to the lower container 
-                      but not to the first one.
-                      The same happens with the container where "Documents texts and links" are displayed (soft purple container).
-                      Rather than being pure libraries (grouping categories if you like) they host content, 
-                      like pdfs or excel documents and that is the reason why they are enclosed in a different container, whithin its parent container, the library.
-                </ul>
-              
-                  <b>Heuristics</b><br>
-                  <ul>
-                      <li><b>Visibility of system status</b><br>
-                        The application is in charge of informing appropriately changes and states of the system.
-                        In the lower container there are a set of tooltips that would be displayed upon user hovering, they tell the user
-                        why to click on them and what to expect after that.
-                        Another clear example is shown in the navigation bar. To know where in the navigation a user currently is, 
-                        the active tab must be highlighted. <br>
-                        A similar pattern is shown with the breadcrumbs that enablee users to go back from one sublibrary to its library parent.
-                      </li>
-                      <li><b>Recognition rather than recall</b><br>
-                        This principle advocates to help users minimize their memory load by making objects, actions, and options visible.
-                        To this purpose, standard icons with a label (when possible) are displayed as opposed to creating 
-                        "unique" icons whithout labels or tooltips that leave our users wondering how to achieve a goal with our user interface
-                        or even worse deleting files that were not allowed to be deleted, for example.
-                      </li>
+                <div fxFlex="" class="centred">
+                  <h3>UI/UX Developer</h3>
+                </div>
+                <div fxFlex="">
+                </div>
+              </div>
+              <div class="bigImage" fxLayout="column" >
+                <div fxFlex="">
+                  <p>My experience at ITSCare have ranged from design and conception to the frontend development of 
+                    data driven software solutions. In this ocassion, I will share one of the tasks recently carried out.</p>
+                  <h4>DPort web and iPad app</h4>
+                  <p> A digital portfolio with mailing and scheduling capabilites enables business consultants to seal deals with
+                    health institutions. The application consists of a series of grouping categories with consulting or campaign documents, contracts,
+                      links and descriptions that are displayed in an iPad and used for consultants to attend business meetings. <br>
+                    The categories, which for this purpose are named "libraries", where showcased in the landingpage inside a grid system with well defined colors and positions.
+                    I was then in charge of designing and implementing
+                      the layout editor. Here I will describe some of the concepts the design was based on.
+                  </p>
+                </div>
+                <div fxFlex="">
+                    <div fxLayout="row" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0">
+                        <div fxFlex="">
+                            <img height="100%" width="100%" src="assets/pc1.png" />
+                        </div>
+                        <div fxFlex="">
+                          <div><br>
+                              For reasons of confidentiality, a minified and abstract Mock-up version of the feature is displayed here. <br><br>
+                              The picture displays the authoring view, a web app feature that enables the user with administrative credentials
+                            to edit the portfolio layout.
+                            That is, the libraries background color, name, position, sublibraries, documents, texts and links.
+                              <br><br>
+                            The <b>preview</b> container shows instant changes that can be published
+                            upon user request. <br><br>
+                            This design was mainly inspired by Gestalt Principles and Heuristics, two sets of principles that consider human factors
+                            and are applied to the interaction with the computer.
+                            On the technical side of things, it was developed with <b>Angular 6, HTML5, CSS3</b> and the <b>Angular Material library.</b><br><br>
+    
+                            <b>Gestalt principles</b><br>
+                            <p>Developed by German psychologists...Did you see that? Yes, Germans! ;) These principles
+                            attempt to describe how people perceive visual elements when certain conditions apply.</p>
+                            <ul>
+                                <li><b>Proximity</b><br>
+                                  <p>The picture at the left shows in two ocasions an element named "Library a", but to recognise that they have different
+                                      functionalities attached, they are placed further apart.</p>
+                                </li>
+                            </ul>
+                            <ul class="seemeinBig">
+                                <li><b>Common Region</b><br>
+                                  <p>However, placing them further apart would not necessarily fulfill the purpose of conveying different functionality.
+                                  To do that, the first library is placed in the container named "Preview" and the second in the lower container that hosts
+                                  also an <button mat-mini-fab style="background-color: #a5a3a3">
+                                        <i style="color: white">+</i>
+                                    </button> call to action button.
+    
+                                    This button is placed there so that a Library can be added to the lower container
+                                  but not to the first one.
+                                  The same happens with the container where "Documents texts and links" are displayed (soft purple container).
+                                  Rather than being pure grouping categories they host content,
+                                  like pdfs or excel documents and that is the reason why they are enclosed in a different container, within its parent container, the library.
+                                  </p>
+                              </ul>
+                            
+                          </div>    
+                      </div>
+                    </div>
+                </div>
+                <div fxFlex="100%">
+                   
+                    <ul class="hidemeinBig">
+                        <b>Common Region</b><br>
+                        <p>However, placing them further apart would not necessarily fulfill the purpose of conveying different functionality.
+                            To do that, the first library is placed in the container named "Preview" and the second in the lower container that hosts
+                            also an <button mat-mini-fab style="background-color: #a5a3a3">
+                                <i style="color: white">+</i>
+                            </button> call to action button.
+                            This button is placed there so that a Library can be added to the lower container
+                            but not to the first one.
+                            The same happens with the container where "Documents texts and links" are displayed (soft purple container).
+                            Rather than being pure grouping categories they host content,
+                            like pdfs or excel documents and that is the reason why they are enclosed in a different container, within its parent container, the library.
+                        </p>
                     </ul>
-
-            </div>
-            <div fxFlex="100%">
-              <div fxLayout="row">
-                <div></div>
-                  <div fxFlex="" class="centred"> 
-                      <h4>DPort iPad app</h4>
-                </div>
-                <div></div>
-              </div>
-                <div fxLayout="row" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0">
-                  <div fxFlex="">
-                    <p>In the iPad version of the application, no authoring view is enabled to favoured device capabilities.
-                      A minified version of the main screen is shown.<br><br>
-                      <b>Responsiveness</b><br>
-                      To support responsiveness, the grid that in bigger viewports outlines three or more 
-                      columns, is now displayed in one single column containing all libraries. <br><br>
-                      <b>Accessibility</b><br>
-                      according to the W3C Accessibility guidelines, level AA requires a contrast ratio of at 
-                      least 4.5:1 for normal text and 3:1 for large text. Level AAA requires a contrast ratio 
-                      of at least 7:1 for normal text and 4.5:1 for large text. <br>
-                      Because of this, the font color of some libraries is dark and for the others 
-                      it is bright. 
-                      <br>The font sizes are fixed in rem units to create a perfectly scalable layout.
-                    </p>
-                  </div>
-                  <div fxFlex="">
-                      <img style="border-radius: 25px;" height="90%" width="80%" src="assets/ipad.png" />
-                  </div>
-                </div>
-            </div>
-          </div>
-    </mat-tab>
-    <mat-tab label="AHC">
-      <div class="nbl">
-        <div fxLAyout="row" class="roleInfo">
-            <div fxFlex="">
-              <button mat-button (click)="backClicked()">
-                  <i class="material-icons">
-                      arrow_back
-                      </i>back
-              </button>
-            </div>
-            <div fxFlex="" class="centred">
-              <h3>Technology Officer</h3>
-            </div>
-            <div fxFlex="">
-            </div>
-          </div>
-          <div fxLAyout="row">
-            <div fxFlex="">
-                <p>A studies abroad company with around 10 years of experience decided to enter the digital 
-                    world. I was in charge of creating their online presence, a new brand and boost
-                    sales with the help of digital channels.
-                    As you will see in the next expandables, the tasks where quite varied but we achieved the goal!
-                  </p>
-            </div>
-          </div>
-          <!--Expansion panel-->
-              <div><p><b>Logo & Business Cards</b><br>
-                Two words had to be reflected in this design: simplicity and elegance. <br>
-                The color palette as well as the ribbon were chosen as to express warmth, combined with the favourite color of the company's owner.
-                This color does not match necessarily the warmth palette, but it definitely gave the logo and business cards an interesting edge!
-                The simplicity permeates the layout and information design, and the elegance sprang with the ribbon, the font and the glossy paper
-                the cards were printed in.
-              </p></div>
-              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0" class="niceshadow">
-
-                  <div fxFlex="45%">
-                        <img height="100%" width="100%" src="assets/bcahcfront.jpg" /> 
-                  </div>
-                  <div fxFlex="45%" >
-                        <img height="100%" width="100%" src="assets/bcahcback.jpg" />
-                  </div>
-              </div>
-
-              <div><b>Banners</b><br>
-              <p>Once the market segment was set up - or re thought - banners, flyers and posters were designed to attract young people
-              with "grafitti" like pictures of London, mixed up with vivid colors. I do not remember how many young ladies
-              were sent to get rides on red London buses but I am sure the number was not small ;)</p>
-              </div>
-
-              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0" class="niceshadow" >
-                    <div fxFlex="" class="centred">
-                          <img height="60%" width="50%" src="assets/ahcposter.png" /> 
-                    </div>
-                    <div fxFlex="" class="centred">
-                          <img height="70%" width="100%" src="assets/ahcflyer.png" />
-                    </div>
-                    
-                </div>
-                <div><p><br><b>Website</b></p>
-                  <p>Finally a website was also implemented. The technolgies used were JavaScript, HTML5, CSS3 and the framework
-                    Bootstrap. Meanwhile a different version is being used but this was the one I built for them.
-                    If you want to see it in a new window with its own responsive features, <a href="https://paolamoreno.de/ahc" target="_blank">click here</a> please.
-                  </p>
-                </div>
-
-                <div class="centred">
-                    <embed id="123" height="724px" width="1124px" src="https://paolamoreno.de/ahc" /> 
-                </div>
-        </div>    
-              
-    </mat-tab>
-    <mat-tab label="NCR">
-        <div fxLAyout="row" class="roleInfo">
-            <div fxFlex="">
-              <button mat-button (click)="backClicked()">
-                  <i class="material-icons">
-                      arrow_back
-                      </i>back
-              </button>
-            </div>
-            <div fxFlex="" class="centred">
-              <h3>UX Designer</h3>
-            </div>
-            <div fxFlex="">
-            </div>
-          </div>
-            <p>Following the introduction of new touch based ATMs (cash machines) at NCR in Edinburgh, 
-              services built with web technologies afterwards deployed to the device with ATM network.
-              This could allow the introduction of new services and more interactions that possible, given that
-              the device was not restricted anymore to the traditional "8 buttons to the side" version.
-              This brought four interesting research questions:
-              1) will the people adapt to the new services and interactions?
-              2) will the nw technology make transactions faster?
-              3)how will different age groups would react to this novelty?
-              4)how could discoverability be achieved? (re phrase)
-              Those 4 questions were the focus of a research study that culminated with a web prototype. 
-             </p> <br>
-             User Research<br>
-             two age groups were invited to participate in the study. Less than 25 (group alfa) and more than 50 (group omega).
-             A first collaborative design session was carried out. A set of six main screen plus additional services were
-             presented to the audience and via a grounded theory method, two designs were selected for group alfa and omega.
-             Here we will enfasize in group alfa.
-
-                      
-
-                  <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
-                        <div fxFlex="" class="centred">
-                                <img height="100%" width="100%" src="assets/designsession.jpg" /> 
-                          </div>
-                          <div fxFlex="" class="centred">
-                                <img height="100%" width="100%" src="assets/designsession1.jpg" />
-                          </div>
                   
+                      <b>Heuristics</b><br>
+                      <ul>
+                          <li><b>Visibility of system status</b><br>
+                            <p>The application should appropriately inform the user when changes or different states of the system occur.
+                            In the lower container there are a set of tooltips that would be displayed upon user hovering, they tell the user
+                            why to click on them and what to expect after that.
+                            Another clear example is shown in the navigation bar. To know where in the navigation a user currently is, 
+                            the active tab must be highlighted. <br>
+                                A similar pattern is shown with the breadcrumbs that enable users to go back from one sub library to its library parent.</p>
+                          </li>
+                          <li><b>Recognition rather than recall</b><br>
+                            <p>This principle advocates to help users minimize their memory load by making objects, actions, and options visible.
+                            To this purpose, standard icons with a label or tooltip are displayed across the application, as opposed to creating
+                            "unique" icons that could potentially leave our users wondering how to achieve a task
+                                or even worse, deleting files without permission.</p>
+                          </li>
+                        </ul>
+    
+                </div>
+                <div fxFlex="100%">
+                  <div fxLayout="row">
+                    <div></div>
+                      <div fxFlex="">
+                          <h4>DPort iPad app</h4>
+                    </div>
+                    <div></div>
+                  </div>
+                    <div fxLayout="row" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0">
+                      <div fxFlex="">
+                        <p>In the iPad version of the application, no authoring view is enabled to favoured device capabilities.
+                            At the top, the libraries are displayed and the sublibraries appear upon user taps.<br>
+                          The main design concepts, emerge here from responsive design, accessibility and again heuristics.<br><br>
+                          <b>Responsiveness</b><br>
+                          <p>To support responsiveness, the grid that in bigger viewports outlines three or more
+                          columns, is now displayed in one single column containing all libraries. </p>
+                          <b>Accessibility</b><br>
+                          <p>According to the W3C Accessibility guidelines, level AA requires a contrast ratio of at
+                          least 4.5:1 for normal text and 3:1 for large text. Level AAA requires a contrast ratio 
+                          of at least 7:1 for normal text and 4.5:1 for large text. This is the reason why
+                            the font color of some libraries' names is dark or bright, depending on its background color.
+    
+                              <br>The font sizes are fixed in rem units to create a perfectly scalable layout.</p>
+                              <h1 style="text-align: center">
+                                  <q><b>Color contrast is a must check to ensure readability and an outstanding user experience.</b></q>
+                              </h1>
+
+                            <b>Heuristics</b><br>
+                            <p>Following the <b>"visibility of system status"</b> heuristic, the icon "send"
+                            has been given a different cue to signify whether it is or not in the list of attachments that will later, 
+                            upon user request, be sent via Email.
+                            The light gray stands out for a documents that have not been added to the list and
+                            the black for a document that actually is in the list of attachments, waiting to be sent.<br><br>
+                            On the upper right corner, the "Email" icon displays the number of documents in the list
+                            and is updated as soon as the user taps on the Email icon in the document container.
+                            Given that the list of documents may be bigger than the device's available height,
+                            a search function is included to ease the selection process.
+                            In case that the list surpases by a big amount that height, table pagination and sorting
+                            capabilities are included.
+                        </p>
+                      </div>
+                      <div fxFlex="" style="text-align: center" class="smallPic">
+                          <img style="border-radius: 25px;" height="85%" width="85%"   src="assets/ipad1.png" />
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>  
+        </mat-tab>
+        <mat-tab label="AHC">
+          <div class="nbl">
+            <div fxLAyout="row" class="roleInfo">
+                <div fxFlex="">
+                  <button mat-button (click)="backClicked()">
+                      <i class="material-icons">
+                          arrow_back
+                          </i>back
+                  </button>
+                </div>
+                <div fxFlex="" class="centred">
+                  <h3>Technology Officer</h3>
+                </div>
+                <div fxFlex="">
+                </div>
+              </div>
+              <div fxLAyout="row">
+                <div fxFlex="">
+                    A studies abroad company with around 10 years of experience decided to enter the digital 
+                        world. I was in charge of creating their online presence, a new brand and boost
+                        sales with the help of digital channels.
+                        The user experience is a transdimensional area. Recently, it has been coined to
+                        the digital world, but it has a very wide action field. My time at Aston House College,
+                        reinforced this idea in me. I could say that what I did for them was designig the experience of their service.
+                </div>
+              </div>
+              <!--Expansion panel-->
+                  <div><p>
+                    <b>Logo & Business Cards</b><br><br>
+                    Three words had to be reflected in this design: simplicity, warmth and elegance. <br>
+                    The color palette were chosen as to express warmth, combined with the favourite color of the company's owner.
+                    The latter does not match necessarily the warmth palette, but it definitely gave the logo and business cards an interesting edge!
+                    The simplicity permeates the layout and information design, and the elegance sprang with the ribbon, the cursive font and the glossy paper
+                    the cards were printed in.
+                  </p><br></div>
+                  <div fxLayout="row" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0" class="niceshadow">
+    
+                      <div fxFlex="" class="centred">
+                            <img height="90%" width="90%" src="assets/bcahcfront.jpg" />
+                      </div>
+                      <div fxFlex="" class="smallPicWidth" >
+                            <img height="90%" width="90%" src="assets/bcahcback.jpg" />
+                      </div>
                   </div>
     
-               
+                  <div><b>Banners</b><br>
+                  <p>Once the market segment was set up - or re thought - banners, flyers and posters were designed to attract young people
+                  with "grafitti" like pictures of London, mixed up with vivid colors and transparencies. Since the company had been in the market for more than ten years
+                  but working on a word of mouth basis, re inforcing the background was a must! That is the reason why the years of experience appear on the foreground
+                  with a seemly style. 
+                </p><br>
+                  </div>
+    
+                  <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="30px" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap.xs="0" class="niceshadow" >
+                        <div fxFlex="" class="centred">
+                              <img height="50%" width="50%" src="assets/ahcposter.png" />
+                        </div>
+                        <div fxFlex="" class="centred">
+                              <img height="90%" width="90%" src="assets/ahcflyer.png" />
+                        </div>
+                        
+                    </div>
+                    <div><p><br><b>Website</b></p>
+                      <p>The website was also implemented. The technolgies used were JavaScript, jQuery, HTML5, CSS3 and the framework
+                        Bootstrap. It consisted of a single page website, with a transparent sticky navigation bar that changed to a vivid blue when over
+                        a white background. <br> The corporative colors were spread on the landing view and the image shown (the girl) reprensents the niche
+                        they have. <br> The message that appears on the landing, rather than priming sales, discounts or travel destinies, focuses
+                        on the personal benefits that the student living abroad could acquired for life. The owners of this company are not in the business because of financial
+                        profit but rather for a passion to empower colombian students to discover the richness they and the country has and boost their potential with the 
+                        newly acquired knowledge.<br>
+                        Meanwhile a different version is being used but this was the one I built for them.
+                      </p><br>
+                    </div>
+    
+                    <div class="centred">
+    
+                        <img height="70%" width="70%"  src="assets/ahcweb.PNG"/>
+    
+                        <p>To explore the website
+                        <a href="https://paolamoreno.de/ahc" target="_blank">click here</a> please</p>
+    
+                    </div>
+            </div>    
+                  
+        </mat-tab>
+        <mat-tab label="NCR">
+            <div class="nbl" style="margin-bottom: 50px;">
+            <div fxLAyout="row" class="roleInfo">
+                <div fxFlex="">
+                  <button mat-button (click)="backClicked()">
+                      <i class="material-icons">
+                          arrow_back
+                          </i>back
+                  </button>
+                </div>
+                <div fxFlex="" class="centred">
+                  <h3>UX Designer</h3>
+                </div>
+                <div fxFlex="">
+                </div>
+              </div>
+                <p>Following the introduction of new touch based ATMs (cash machines) at NCR in Edinburgh, 
+                  services built with web technologies would afterwards be deployed to the cash machine via ATM network.
+                  New services and more interactions that had ever been possible could be allowed, as
+                  the device was not restricted anymore to the traditional "8 hardware buttons to the side".
+                  This brought four interesting research questions that were the focus of a research study that culminated with a web prototype.<br>
+                  <span>
+                  <h3>1) ¿Would users adapt to the new services and interactions?</h3>
+                  <h3>2) ¿Would the new technology make transactions faster?</h3>
+                  <h3>3) ¿How would different age groups respond to this novelty?</h3>
+                  <h3>4) ¿How could discoverability of new services be achieved?</h3>
+                </span>
+                 </p> <br>
+                 User Research<br>
+                 <p>In order to take in the third question, two age groups were invited to participate in the study. Under 30 and over 60 years old.
+                 I then carried out the first collaborative design session. A set of four "main screen" plus "additional services screen" were
+                 presented to the audience and via grounded theory, two designs were selected for each group. <br>
+                 The results exposed here will refer only to the younger group.</p>
+                 
+            <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
+                <div fxFlex="" class="centred">
+                    <img height="70%" width="70%"  src="assets/designsession.jpg" />
+                </div>
+                <div fxFlex="" class="centred">
+                    <img height="70%" width="70%"  src="assets/designsession1.jpg" />
+                </div>
+    
+            </div>
+    
+            <h3>Adaptability to new services</h3>
+            <p>To investigate how users would think of the introduction of new services like buying events'
+            tickets, I conducted a survey and 57 participants took part in. <br>
+            Based on the results, the 3 most popular additional services were displayed on the main screen next to
+            an invitation to discover more.</p>
+                <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow" >
+                    <div fxFlex="" class="centred">
+                        <img height="50%" width="40%"  src="assets/ncra.png" />
+                    </div>
+                    <div fxFlex="">
+                        <img height="70%" width="70%"  src="assets/ncr1.png" />
+                    </div>
+                </div>
+    
+            <h3>Discoverability</h3>
+            <p>Color can certainly influence the attractiveness of an element. I did then created a color palette for the interactive mockups and
+            and carried out a second study with a different group of young participants to reinforce external validity.
+            Color was not enough to know if the design would boost discoverability. I then introduced eye tracking technology to study the fixation time
+            on the "invitation to discover" area, as this is related to repeated attention, and this in turn also a measurement
+            of engagement according to research done on user modelling for web applications.</p><br>
+            
+                <div fxLayout="row" class="niceshadow">
+                    <div fxFlex="" class="centred">
+                        <img height="90%" width="70%"  src="assets/heatmapa.png" />
+                    </div>
+                    <div fxFlex="" class="centred">
+                        <img height="90%" width="70%"  src="assets/heatmapb.png" />
+                    </div>
+                </div>
+    
+    
+                <h3>Transaction time</h3>
+                <p>A second study was also conducted to inquire whether the technology could reduce transaction time and measure Usability.
+                For that purpose, using counterbalancing to avoid learning effects, a withdrawal of 20 and 50 pounds was
+                given as a task to the users.</p>
+
+                <h3> What were the results achieved?</h3>
+
+                <p>The main challenge that aroused after getting the survey results were that participants
+                had barely conceived of cash machines as a providers of additional services. The traditional user would
+                approach the machine to get money, eventually check balances and leave as soon as possible. <br>
+                This may be the same case in Germany?</p>
+                <ul>
+                  <li>
+                    <h3>Adaptability</h3>
+                    This attitude makes adaptability a characteristic difficult to achieve. 
+                    Therefore, the introduction of new technology that eventually modifies 
+                    its functionality should initially the less context-disruptive possible.
+                    In this sense, this user interface displays the traditional
+                    services, plus two or three more that are banking related.
+
+                  </li>
+                  <li>
+                      <h3>Transaction time</h3>
+                      Provided the ATM network does not introduce latency, looking at the results of this study it can be said that touch technology 
+                      and a specific design makes transactions <b>faster</b> than the market average of 45 seconds. 
+                    </li>
+                  <li>
+                      <h3>Age groups</h3>
+                      Adaptability is linked to personal characteristics, and although the attitude towards adaptability seemed to 
+                      be the same across age groups, this trait got more accentuated among the seniors. This is linked to the rather uncomfortable idea of
+                      communicating with a machine as opposed to with a person at the ticketing office, for example; and to the conceptual model
+                      associated to the cash machine, which in some cases raised concerns on security.
+                  </li>  
+                  <li>
+                      <h3>Discoverability</h3>
+                      Research done by Jacob Nielsen on fixations and time spent on websites, revealed that people spent most of the time looking at information
+                      that is displayed above the page fold, against a 20% below it. In a similar study he found that content reading followed a F-shaped pattern, 
+                      two horizontal stripes followed by a vertical stripe. The results of the eye tracking session showed that indeed 
+                      the top left corner obtained the higher score in repeated interest, followed by the centre of the screen.
+                      For that reason, the invitation to discover additional services was placed on this area with a slight animation
+                      brought up from attention theories. One of them says that muted colour elements placed in the periphery of 
+                      people’s visual field are often not noticed, in order to get them noticeable, such elements should move, 
+                      so that the fovea is guided towards it.
+                      Using animate.js a subtle animation was included to draw attention to the additional services.
+                        
+                  </li>
+                </ul>
+
+                     <h3>Web Prototype</h3>
+                     <p>Finally, a web prototype was developed with all findings included, you can appreciate it in its fullness through
+                        <a href="https://paolamoreno.de/ncr" target="_blank">this link</a>.
+                     </p>
+                        <div class="centred">
+                            <img height="80%" width="80%"  src="assets/aha.png"/>
+                        </div>
+    
+    
+    
+            </div>
+        </mat-tab>
+        <mat-tab label="W@pColombia">
+            Under construction :)
+           
+            <!--mat-accordion>
+                <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      User Research
+                    </mat-panel-title>
+                    <mat-panel-description>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  
+                  <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
+                          <div fxFlex="" class="centred">
+                                <img src="assets/Picture1.png" />
+                          </div>
+                          <div fxFlex="" class="centred">
+                                <img src="assets/Picture3.png" />
+                          </div>
+                  </div>
+                  <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
+                      <div fxFlex="" class="centred">
+                          <img src="assets/Picture4.png" />
+                    </div>
+                    <div fxFlex="" class="centred">
+                        <img src="assets/Picture5.png" />
+                  </div>
+                  </div>
+                </mat-expansion-panel>
+                <mat-expansion-panel >
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
                      Design
-                   
+                    </mat-panel-title>
+                    <mat-panel-description>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
                   <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow" >
                             <div fxFlex="" class="centred"> 
-                                <img height="60%" width="50%" src="assets/ncr3.png" />
+                                <img src="assets/ncr3.png" />
                             </div>
                             <div fxFlex="">
                                     <div fxLayout="column">
                                             <div fxFlex=""> 
-                                                    <img height="60%" width="70%" src="assets/ncr1.png" />
+                                                <img src="assets/ncr1.png" />
                                             </div>          
                                             <div fxFlex=""> 
-                                                <img height="60%" width="70%" src="assets/ncr4.png" />
+                                                <img src="assets/ncr4.png" />
                                             </div> 
                                     </div>
                             </div>
                             
                             
                     </div>
-                
+                </mat-expansion-panel>
+                <mat-expansion-panel >
+                        <mat-expansion-panel-header>
+                          <mat-panel-title>
                             Data Analysis                          
-                      
+                        </mat-panel-title>
+                          <mat-panel-description>
+                          </mat-panel-description>
+                        </mat-expansion-panel-header>
                         <div fxLayout="row" class="niceshadow">
                                 <div fxFlex="" class="centred">
-                                        <img height="100%" width="80%" src="assets/heatmapa.png" /> 
+                                        <img src="assets/heatmapa.png" />
                                   </div>
                                   <div fxFlex="" class="centred">
-                                        <img height="100%" width="80%" src="assets/heatmapb.png" />
+                                        <img src="assets/heatmapb.png" />
                                   </div>
                                   <div fxFlex="" class="centred">
-                                        <img height="100%" width="80%" src="assets/abtesting.png" />
+                                        <img src="assets/abtesting.png" />
                                   </div>
                         </div>
-                    
-                        Web Prototype
-                     
-                    <div class="centred">
-                            <embed id="123" height="690px" width="1200px" src="https://paolamoreno.de/ncr" /> 
-                  </div>
-                   
-             
-    </mat-tab>
-    <mat-tab label="W@pColombia">
-        <mat-accordion>
-            <mat-expansion-panel>
-              <mat-expansion-panel-header>
-                <mat-panel-title>
-                  User Research
-                </mat-panel-title>
-                <mat-panel-description>
-                </mat-panel-description>
-              </mat-expansion-panel-header>
-              
-              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
-                      <div fxFlex="" class="centred">
-                            <img height="100%" width="50%" src="assets/Picture1.png" /> 
-                      </div>
-                      <div fxFlex="" class="centred">
-                            <img height="60%" width="35%" src="assets/Picture3.png" />
-                      </div>
-              </div>
-              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow">
-                  <div fxFlex="" class="centred">
-                      <img height="100%" width="50%" src="assets/Picture4.png" /> 
-                </div>
-                <div fxFlex="" class="centred">
-                    <img height="100%" width="50%" src="assets/Picture5.png" /> 
-              </div>
-
-              </div>
-
-            </mat-expansion-panel>
-            <mat-expansion-panel >
-              <mat-expansion-panel-header>
-                <mat-panel-title>
-                 Design
-                </mat-panel-title>
-                <mat-panel-description>
-                </mat-panel-description>
-              </mat-expansion-panel-header>
-              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px" class="niceshadow" >
-                        <div fxFlex="" class="centred"> 
-                            <img height="60%" width="50%" src="assets/ncr3.png" />
-                        </div>
-                        <div fxFlex="">
-                                <div fxLayout="column">
-                                        <div fxFlex=""> 
-                                                <img height="60%" width="70%" src="assets/ncr1.png" />
-                                        </div>          
-                                        <div fxFlex=""> 
-                                            <img height="60%" width="70%" src="assets/ncr4.png" />
-                                        </div> 
-                                </div>
-                        </div>
-                        
-                        
-                </div>
-            </mat-expansion-panel>
-
-            <mat-expansion-panel >
+                    </mat-expansion-panel>
+                <mat-expansion-panel >
                     <mat-expansion-panel-header>
                       <mat-panel-title>
-                        Data Analysis                          
-                    </mat-panel-title>
+                        Web Prototype
+                      </mat-panel-title>
                       <mat-panel-description>
                       </mat-panel-description>
                     </mat-expansion-panel-header>
-                    <div fxLayout="row" class="niceshadow">
-                            <div fxFlex="" class="centred">
-                                    <img height="100%" width="80%" src="assets/heatmapa.png" /> 
-                              </div>
-                              <div fxFlex="" class="centred">
-                                    <img height="100%" width="80%" src="assets/heatmapb.png" />
-                              </div>
-                              <div fxFlex="" class="centred">
-                                    <img height="100%" width="80%" src="assets/abtesting.png" />
-                              </div>
-                    </div>
+                    <div class="centred">
+                            <embed id="123" height="690px" width="1200px" src="https://paolamoreno.de/ncr" /> 
+                  </div>
                 </mat-expansion-panel>
-
-            <mat-expansion-panel >
-                <mat-expansion-panel-header>
-                  <mat-panel-title>
-                    Web Prototype
-                  </mat-panel-title>
-                  <mat-panel-description>
-                  </mat-panel-description>
-                </mat-expansion-panel-header>
-                <div class="centred">
-                        <embed id="123" height="690px" width="1200px" src="https://paolamoreno.de/ncr" /> 
-              </div>
-            </mat-expansion-panel>
-        </mat-accordion>
-    </mat-tab>
-
-  </mat-tab-group>
-
-</div>
-</div>
+            </mat-accordion>-->
+        </mat-tab>
+    
+      </mat-tab-group>
+    
+    </div>
+    </div>

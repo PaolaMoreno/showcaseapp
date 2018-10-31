@@ -9,7 +9,7 @@
 
 .left {
     left: 0;
-    background-image: linear-gradient(to right, #7d83d6, #37b969);
+    background-image: linear-gradient(to right, #5660eb, #e3e4e3);
     background-size: 400% 400%;
 
 -webkit-animation: about 0s ease infinite;
@@ -91,8 +91,11 @@ animation: about 0s ease infinite;
 .right {
     right: 0;
     background-color: #fff5f0;
+    
 }
-
+.right img{
+    border-radius: 50%;
+}
 .centered {
     position: absolute;
     top: 50%;
@@ -111,7 +114,7 @@ animation: about 0s ease infinite;
 
 .centered img {
     width: 150px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
 }
 .name{
     writing-mode: vertical-rl;
@@ -119,6 +122,6 @@ animation: about 0s ease infinite;
     /*transform:rotate(-17deg);*/
     color: black;
     font-size: large;
-    top:40%;
+    top:46%;
     z-index: 10000;
 }
